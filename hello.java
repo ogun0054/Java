@@ -4,12 +4,12 @@ class Hello
     {
 
         //byte b = 127;
-        int a = 12;
-        byte k = (byte) a;
+        // int a = 12;
+        // byte k = (byte) a;
 
 
         // System.out.println(b);
-        System.out.println(a);
+        // System.out.println(a);
         // float score = 6.6f;
         // byte by = 123;
 
@@ -28,6 +28,51 @@ class Hello
         // double d = 5.8;
         // char c = 'k'; // literals
         // boolean b = true;
+
+        //Operators in Java
+
+        // int num = 7;
+       // ++num;   // pre - increment
+    //    num++;      // post-increment
+        // 
+
+        
+        // System.out.println(num);
+
+        // Operators in Java
+        // int x = 6;
+        // int y = 5;
+
+        // boolean result = x < y;
+
+        // System.out.println(result);
+
+        //Logical  Operators & | ! 
+        //Short circuit && || !!
+
+        // int x = 6;
+        // int y = 5;
+        // int a = 8;
+        // int b = 10;
+
+        // boolean result = x > y && a < 10;
+        // System.out.println(result);
+
+        // Conditional Statement
+        int x = 8;
+
+        if( x > 5)
+             System.out.println("Hello");
+
+
+        //System.out.println("Bye");
+
+
+
+
+
+
+
 
         
     }
