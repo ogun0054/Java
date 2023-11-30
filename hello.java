@@ -59,13 +59,14 @@ class Hello
         // System.out.println(result);
 
         // Conditional Statement
-        int x = 8;
+        int x = 3;
+        int y = 7;
+        int z = 9;
 
-        if( x > 5)
+        if( x > y && x > z)
              System.out.println("Hello");
-
-
-        //System.out.println("Bye");
+        else if(y > x && y > z)
+        System.out.println("Bye");
 
 
 
