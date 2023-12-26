@@ -82,31 +82,31 @@ class Hello
 
         // Switch Statement
 
-         int n = 1;
+         // int n = 1;
 
-        switch (n) {
-         case 1:
-            System.out.println("Sunday");
-            break;
-         case 2:
-            System.out.println("Monday");
-            break;
-         case 3:
-            System.out.println("Tuesday");
-            break;
-         case 4:
-            System.out.println("Wednesday");
-            break;
-         case 5:
-            System.out.println("Thursday");
-            break;
-         case 6:
-            System.out.println("Friday");
-            break;
-         case 7:
-            System.out.println("Saturday");
-            break;
-        }
+      //   switch (n) {
+      //    case 1:
+      //       System.out.println("Sunday");
+      //       break;
+      //    case 2:
+      //       System.out.println("Monday");
+      //       break;
+      //    case 3:
+      //       System.out.println("Tuesday");
+      //       break;
+      //    case 4:
+      //       System.out.println("Wednesday");
+      //       break;
+      //    case 5:
+      //       System.out.println("Thursday");
+      //       break;
+      //    case 6:
+      //       System.out.println("Friday");
+      //       break;
+      //    case 7:
+      //       System.out.println("Saturday");
+      //       break;
+      //   }
 
         // New Switch Syntax
         // String day = "Monday"
@@ -123,11 +123,11 @@ class Hello
         //         System.out.println("7am")
 
         // }
-        String day = "Monday";
-        String result = "";
+      //   String day = "Monday";
+      //   String result = "";
 
-       switch (day)
-        // {
+      //  switch (day)
+      //   // {
         //     case "Saturday", "Sunday" -> result = "6am";
         //     case "Monday" -> result = "8am";
         //     default -> result = "7am";
@@ -135,14 +135,16 @@ class Hello
         // }
 
         // Instead of arrow(->) we can use the keyword (yield)
-        {
-            case "Saturday", "Sunday" : yield "6am";
-            case "Monday" : yield "8am";
-            default : yield "7am";
+      //   {
+      //       case "Saturday", "Sunday" : yield "6am";
+      //       case "Monday" : yield "8am";
+      //       default : yield "7am";
 
-        }
+      //   }
 
-        System.out.println(result);
+
+
+      //   System.out.println(result);
         
 
 
@@ -184,7 +186,19 @@ class Hello
 
         
 
+// loop - while, do while, for
 
+// repeat this statement 4 times
+
+// 1 - while loop
+
+int i = 1;
+while( i <= 10)
+{
+
+System.out.println(i +  " Hi");
+i++;
+}
 
 
 
